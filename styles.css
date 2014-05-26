@@ -1,0 +1,148 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  background-image: url('img/thoughtram-logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px auto;
+  background-color: hsl(0, 100%, 100%);
+  text-indent: -7000px;
+  margin: 0 auto;
+  margin-top: 3em;
+  height: 4em;
+  width: 5em;
+}
+
+.logo-line {
+  display: block;
+  background-image: url('../img/thoughtram-logo-line.png');
+  background-repeat: no-repeat;
+  background-color: hsl(0, 100%, 100%);
+  background-size: 250px auto;
+  background-position: center;
+  padding: 0.5em 0;
+  margin: 0;
+  text-indent: -7000px;
+}
+
+.email {
+  line-height: 2;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0;
+  padding: 0em 1em;
+  height: 3em;
+  border: 1px solid #ccc;
+}
+.label {
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 0.9em;
+  font-weight: 200;
+}
+.button {
+  border: 0;
+  color: #fff;
+  background: #6fb4c7;
+  width: 100%;
+  padding: 0.8em;
+  margin-top: 1em;
+}
+
+.button:hover {
+  background-color: hsl(193, 44%, 45%)
+}
+.socialize {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 2em;
+}
+
+.socialize-item {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+.socialize-item a {
+  font-size: 2em;
+  color: #ccc;
+}
+
+.socialize-item a:hover {
+  color: #aaa;
+}
+
+@media screen and (min-width: 640px) {
+
+  .logo {
+    background-size: 250px auto;
+    height: 6em;
+    width: 8em;
+  }
+
+  .logo-line {
+    margin-top: 0.5em;
+    background-size: 350px auto;
+    background-position left;
+  }
+
+  .socialize-item a {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  body {
+    background-image: url('img/thoughtram-polygons.svg');
+    background-repeat: no-repeat;
+    background-position: 42em -60em;
+    /* background-position: -20em -45em; */
+  }
+
+  .form {
+    width: 684px;
+    margin: 0 auto;
+  }
+
+  .socialize {
+    width: 684px;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .container {
+    width: 810px;
+    position: absolute;
+    left: 50%;
+    margin-left: -405px;
+  }
+
+  .label {
+    font-weight: bold;
+  }
+
+  .form {
+    margin-top: 3em;
+    width: 500px;
+  }
+  .logo {
+    margin: 5em 0 0 1.7em;
+    background-size: 270px auto;
+    width: 10em;
+    height: 6em;
+  }
+
+  .logo-line {
+    margin-top: 1em;
+    background-size: 500px auto;
+  }
+}
