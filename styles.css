@@ -136,6 +136,7 @@
     width: 810px;
     position: absolute;
     left: 50%;
+    top: 20%;
     margin-left: -405px;
   }
 
@@ -153,7 +154,7 @@
   }
 
   .logo {
-    margin: 5em 0 0 1.7em;
+    margin: 0 0 0 1.7em;
     background-size: 270px auto;
     width: 10em;
     height: 6em;
