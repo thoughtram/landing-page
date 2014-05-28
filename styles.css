@@ -69,15 +69,23 @@
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.socialize {
   margin-top: 1em;
 }
 
+.hints {
+  margin-top: 2em;
+}
+
 .socialize-item, .hint {
-  width: 49%;
   display: inline-block;
   text-align: center;
 }
-
+.socialize-item {
+  width: 49%;
+}
 .socialize-item.twitter {
   text-align: right;
 }
@@ -104,10 +112,11 @@
 }
 
 .hint {
-  background-size: 50px auto;
+  width: 32%;
+  background-size: 40px auto;
   background-position: center;
   background-repeat: no-repeat;
-  height: 4em;
+  height: 3em;
   opacity: 0.7;
 }
 
@@ -117,6 +126,16 @@
 
 .hint.git {
   background-image: url('img/git-logo-black.png');
+}
+
+.hint.vim {
+  background-image: url('img/vim-logo.png');
+}
+
+.hint.elasticsearch {
+  width: 100%;
+  background-size: 150px auto;
+  background-image: url('img/elasticsearch-logo.png');
 }
 
 @media screen and (min-width: 360px) {
@@ -147,6 +166,10 @@
   .hint {
     background-size: 70px auto;
     height: 5em;
+  }
+
+  .hint.elasticsearch {
+    background-size: 200px auto;
   }
 
   .socialize-item a {
