@@ -182,37 +182,9 @@
 
   .container {
     width: 810px;
-    /* position: relative; */
-    margin-top:  6em;
+    margin-top:  8em;
   }
 
-  /* .container:before { */
-  /*   position: absolute; */
-  /*   content: ''; */
-  /*   background-image: url('img/git-logo-black.png'); */
-  /*   background-repeat: no-repeat; */
-  /*   background-size: 60px auto; */
-  /*   left: -5em; */
-  /*   height: 4em; */
-  /*   width: 4em; */
-  /*   background-position: center; */
-  /*   bottom: 9em; */
-  /*   opacity: 0.5; */
-  /* } */
-
-  /* .container:after { */
-  /*   position: absolute; */
-  /*   content: ''; */
-  /*   background-image: url('img/angular-logo.png'); */
-  /*   background-repeat: no-repeat; */
-  /*   background-size: 60px auto; */
-  /*   left: -5em; */
-  /*   height: 4em; */
-  /*   width: 4em; */
-  /*   background-position: center; */
-  /*   top: 20em; */
-  /*   opacity: 0.5; */
-  /* } */
 
   .label {
     font-weight: bold;
